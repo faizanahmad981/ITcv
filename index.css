@@ -237,3 +237,15 @@ footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.gradient-global{
+  background: linear-gradient(91.7deg, #7F74E2 -19.93%, #86E8F2 32.52%, #89F880 101.41%);background: linear-gradient(91.7deg, #7F74E2 -19.93%, #86E8F2 32.52%, #89F880 101.41%);
+ font-weight: 700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.green-btns2{
+  background-color: #8cc300;
+  border-radius: 5px;
+  width: 339px;
+  border: 3px solid  #00C39A;
+}

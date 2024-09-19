@@ -21,17 +21,20 @@
         </div>
 
         <!-- Links (hidden on mobile) -->
-        <ul class="hidden md:flex space-x-8 text-white">
-            <li><a href="#" class="hover:text-gray-400">Home</a></li>
-            <li><a href="#" class="hover:text-gray-400">About</a></li>
-            <li><a href="#" class="hover:text-gray-400">Product</a></li>
-            <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+        <ul class="hidden md:flex space-x-8 text-white" style="gap:19%;">
+            <li><a href="#" class="hover:#00C39A" style="color:#00C39A;" onmouseover="this.style.color='#00C39A'" onmouseout="this.style.color=''">Home</a></li>
+            <li><a href="#" class="hover:text-gray-400" onmouseover="this.style.color='#00C39A'" onmouseout="this.style.color=''">About</a></li>
+            <li><a href="#" class="hover:text-gray-400" onmouseover="this.style.color='#00C39A'" onmouseout="this.style.color=''">Product</a></li>
+            <li><a href="#" class="hover:text-gray-400" onmouseover="this.style.color='#00C39A'" onmouseout="this.style.color=''">Contact</a></li>
         </ul>
 
         <!-- Sign up button and toggle icon -->
-        <div class="flex items-center space-x-4">
+        <div class="flex items-center space-x-4" style="margin-right: 6%;">
             <!-- Sign up button -->
-            <a href="#" class="hidden md:block bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 ">Sign Up</a>
+            <a href="#" class="hidden md:block  text-white px-4 py-2 rounded-md hover:bg-teal-600 "  
+            onmouseover="this.style.color='#00C39A'" onmouseout="this.style.color=''">Sign Up
+            &nbsp;&nbsp;  <i class="fa-solid fa-user" ></i>
+            </a>
 
             <!-- Toggle icon (only visible on mobile) -->
             <button id="menuToggle" class="text-white md:hidden text-2xl">
@@ -40,442 +43,444 @@
         </div>
     </nav>
 <!-- Mobile Menu (hidden by default) -->
-    <div id="mobileMenu" class="hidden md:hidden bg-gray-800 text-white space-y-4 p-4">
-        <a href="#" class="block hover:text-gray-400">Home</a>
-        <a href="#" class="block hover:text-gray-400">About</a>
-        <a href="#" class="block hover:text-gray-400">Product</a>
-        <a href="#" class="block hover:text-gray-400">Contact</a>
+    <div id="mobileMenu" class="hidden md:hidden bg-gray-800 text-white space-y-4 p-4" >
+        <a href="#" class="block hover:text-gray-400" onmouseover="this.style.color='#00C39A'" onmouseout="this.style.color=''">Home</a>
+        <a href="#" class="block hover:text-gray-400" onmouseover="this.style.color='#00C39A'" onmouseout="this.style.color=''">About</a>
+        <a href="#" class="block hover:text-gray-400" onmouseover="this.style.color='#00C39A'" onmouseout="this.style.color=''">Product</a>
+        <a href="#" class="block hover:text-gray-400" onmouseover="this.style.color='#00C39A'" onmouseout="this.style.color=''" >Contact</a>
+        <a href="#" class="block hover:text-gray-400"   onmouseover="this.style.color='#00C39A'" onmouseout="this.style.color=''">Sign up  <i class="fa-solid fa-user" ></i> </a>
+        
     </div>
 <!--  navbar exit  -->
-<!--  main-content -->    
-    <div class="p-4 md:p-8" >
-    <!--  -->
-   
-<!--  first -->
-
-
-<!--  first exit -->
-
-<!--  second  -->
-<div class="bg-black text-white py-10">
-    <div class="container mx-auto px-8">
+<!--  main-content -->  
+  <div  >
+      <!--  first -->
+      <!--  first exit -->
       
-      <!-- Stats Section -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
-        <div class="text-center lg:text-left">
-          <h2 class="text-5xl font-bold text-green-400">10k</h2>
-          <p class="text-lg">Current Jobs</p>
+      <!--  second  -->
+        
+      <div class=" text-white py-10 w-full">
+        <div class="w-full px-8 ">
+          
+          <!-- Stats Section -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
+            <div class="text-center lg:text-left">
+              <h2 class="text-5xl font-bold gradient-global" >10k</h2>
+              <p class="text-lg">Current Jobs</p>
+            </div>
+            <div class="text-center lg:text-left">
+              <h2 class="text-5xl font-bold gradient-global ">20k+</h2>
+              <p class="text-lg">Talents</p>
+            </div>
+            <div class="text-center lg:text-left" style="margin-right: 24%;">
+              <h3 class="text-2xl font-bold  gradient-global">Expand your <br> recruitments network</h3>
+              <p class="text-sm mt-2 ">
+                It uses a dictionary of over 200 Latin words, combined with a handful
+                of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+              </p>
+            </div>
+          </div>
+      
+          <!-- Divider Line -->
+          <div class="border-t border-gray-600 mb-8"></div>
+      
+          <!-- Logos Section -->
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
+            <img src="./images/OneBlockLabs (1).png" alt="OneBlock Labs" class=" mx-auto" />
+            <img src="./images/unsplash-logo-svg-150px.png" alt="Unsplash" class=" mx-auto" />
+            <img src="./images/jira-software-logo-svg-150px.png" alt="Jira Software" class=" mx-auto" />
+            <img src="./images/asana-logo-svg-150px.png" alt="Asana" class=" mx-auto" />
+            <img src="./images/typeform-logo-svg-150px.png" alt="Typeform" class=" mx-auto" />
+          </div>
         </div>
-        <div class="text-center lg:text-left">
-          <h2 class="text-5xl font-bold text-blue-400">20k+</h2>
-          <p class="text-lg">Talents</p>
-        </div>
-        <div class="text-center lg:text-left">
-          <h3 class="text-2xl font-bold text-cyan-400">Expand your recruitments network</h3>
-          <p class="text-sm mt-2 text-gray-400">
-            It uses a dictionary of over 200 Latin words, combined with a handful
-            of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+      </div>
+      <!--  second exit -->
+      
+      <!--  third -->
+        <div style="
+          background: linear-gradient(to right, #09090B 60%, #081e1c 100%);
+        ">
+      <div class="flex flex-col md:flex-row justify-between items-center w-11/12 mx-auto">
+        <div class="flex flex-col md:flex-row items-start md:items-center">
+          <h1 class="text-2xl md:text-4xl font-bold text-white mb-2 md:mb-0 md:mr-4 " >
+            <span id="recommended-heading">Recommended</span>
+            <span id="recommended-heading"> Talents</span>
+          </h1>
+          <p class="text-sm md:text-base text-white " >
+            It uses a dictionary of over 200 Latin words, combined with a handful of <br class="hidden md:block"> model sentence structures, to generate Lorem Ipsum which looks reasonable
           </p>
         </div>
       </div>
-  
-      <!-- Divider Line -->
-      <div class="border-t border-gray-600 mb-8"></div>
-  
-      <!-- Logos Section -->
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
-        <img src="./images/OneBlockLabs (1).png" alt="OneBlock Labs" class="h-10 mx-auto" />
-        <img src="./images/unsplash-logo-svg-150px.png" alt="Unsplash" class="h-10 mx-auto" />
-        <img src="./images/jira-software-logo-svg-150px.png" alt="Jira Software" class="h-10 mx-auto" />
-        <img src="./images/asana-logo-svg-150px.png" alt="Asana" class="h-10 mx-auto" />
-        <img src="./images/typeform-logo-svg-150px.png" alt="Typeform" class="h-10 mx-auto" />
-      </div>
-    </div>
-  </div>
-  
-  
-<!--  second exit -->
-
-<!--  third -->
-  <div style="
-    background: linear-gradient(to right, #09090B 60%, #081e1c 100%);
-  ">
-<div class="flex flex-row justify-between items-center" style="width: 88%;">
-  <div class="flex items-center">
-    <h1 class="text-3xl md:text-4xl font-bold text-white mr-4">
-      <span id="recommended-heading">Recommended</span>
-      <span id="recommended-heading">Talents</span>
-    </h1>
-    <p class="text-white text-sm md:text-base">
-      It uses a dictionary of over 200 Latin words, combined with a handful of <br> model sentence structures, to generate Lorem Ipsum which looks reasonable
-    </p>
-  </div>
-</div>
-
-
-  <!-- Main Section -->
-  <div class="flex flex-col lg:flex-row mt-8">
-    <!-- Left Section -->
-    <div class=" lg:w-1/3  p-6 rounded-lg mb-6 lg:mb-0" style="width: 361px; height: 709px; border-radius: 12px; 
-    border-radius: 10px; 
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
-
-
-    ">
-      <div class=" text-center py-4 rounded-lg mb-6" style="background: #00C39A;
-">
-        <h2 class="text-xl font-bold">Find Talents</h2>
-        <p class="text-sm mt-2">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-        </p>
-      </div>
-      <div class="space-y-4">
-        <!-- Talent Cards -->
-        <div class="flex items-center bg-gray-800 p-4 rounded-lg">
-          <img
-            src="./images/Ellipse-2.png"
-            alt="Profile picture of Marvin McKinney"
-            class="rounded-full w-10 h-10"
-          />
-          <div class="ml-4">
-            <h3 class="font-bold">Marvin McKinney</h3>
-            <p class="text-gray-400 text-sm">UX/UI Design</p>
-          </div>
-        </div>
-        <div class="flex items-center bg-gray-800 p-4 rounded-lg">
-          <img
-            src="./images/Ellipse-2.png"
-            alt="Profile picture of Marvin McKinney"
-            class="rounded-full w-10 h-10"
-          />
-          <div class="ml-4">
-            <h3 class="font-bold">Marvin McKinney</h3>
-            <p class="text-gray-400 text-sm">UX/UI Design</p>
-          </div>
-        </div>
-
-        <div class="flex items-center bg-gray-800 p-4 rounded-lg">
-          <img
-            src="./images/Ellipse-2.png"
-            alt="Profile picture of Marvin McKinney"
-            class="rounded-full w-10 h-10"
-          />
-          <div class="ml-4">
-            <h3 class="font-bold">Marvin McKinney</h3>
-            <p class="text-gray-400 text-sm">UX/UI Design</p>
-          </div>
-        </div>
-        <div class="flex items-center bg-gray-800 p-4 rounded-lg">
-          <img
-            src="./images/Ellipse-2.png"
-            alt="Profile picture of Marvin McKinney"
-            class="rounded-full w-10 h-10"
-          />
-          <div class="ml-4">
-            <h3 class="font-bold">Marvin McKinney</h3>
-            <p class="text-gray-400 text-sm">UX/UI Design</p>
-          </div>
-        </div>
-        <div class="flex items-center bg-gray-800 p-4 rounded-lg">
-          <img
-            src="./images/Ellipse-2.png"
-            alt="Profile picture of Marvin McKinney"
-            class="rounded-full w-10 h-10"
-          />
-          <div class="ml-4">
-            <h3 class="font-bold">Marvin McKinney</h3>
-            <p class="text-gray-400 text-sm">UX/UI Design</p>
-          </div>
-        </div>
-
-
-        <!-- Repeat the same structure for other talent cards... -->
-      </div>
-    </div>
-
-    <!-- Right Section -->
-    <div class="w-full lg:w-2/3 bg-gray-900 p-6 rounded-lg lg:ml-8">
-      <div class="flex flex-col md:flex-row items-center p-6 bg-black">
-        <img
-          src="./images/person.png"
-          alt="Portrait of Marvin McKinney"
-          class="rounded-lg w-24 md:w-36 h-24 md:h-36"
-        />
-        <div class="ml-0 md:ml-6 flex-1 mt-4 md:mt-0">
-          <div class="flex flex-col md:flex-row items-center justify-between w-full">
-            <h1 class="text-xl md:text-2xl font-semibold text-white">
-              Marvin McKinney
-            </h1>
-            <div class="mt-4 md:mt-0 w-full md:w-1/4 flex justify-center md:justify-end">
-              <button class="bg-green-500 text-white px-4 py-2 rounded-full flex items-center">
-                Hiring <i class="fas fa-arrow-right ml-2"></i>
-              </button>
+        <!-- Main Section -->
+        <div class="flex flex-col lg:flex-row mt-8">
+          <!-- Left Section -->
+          <div class=" lg:w-1/3  p-6 rounded-lg mb-6 lg:mb-0" style="width: 361px; height: 709px; border-radius: 12px; 
+          border-radius: 10px; 
+          box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+          margin-left: 2%;
+      
+          ">
+            <div class=" text-center py-4 rounded-lg mb-6" style="background: #00C39A;
+      ">
+              <h2 class="text-xl font-bold">Find Talents</h2>
+              <p class="text-sm mt-2">
+                Contrary to popular belief, Lorem Ipsum <br> is not simply random text.<br> It has roots
+              </p>
+            </div>
+            <div class="space-y-4">
+              <!-- Talent Cards -->
+              <div class="flex items-center bg-gray-800 p-4 rounded-lg">
+                <img
+                  src="./images/Ellipse6.png"
+                  alt="Profile picture of Marvin McKinney"
+                  class="rounded-full w-10 h-10"
+                />
+                <div class="ml-4">
+                  <h3 class="font-bold" >Marvin McKinney</h3>
+                  <p class="text-gray-400 text-sm">UX/UI Design</p>
+                </div>
+              </div>
+              <div class="flex items-center bg-white p-4 rounded-lg">
+                <img
+                  src="./images/Ellipse5.png"
+                  alt="Profile picture of Marvin McKinney"
+                  class="rounded-full w-10 h-10"
+                />
+                <div class="ml-4">
+                  <h3 class="font-light" style="color: #333333;">Marvin McKinney</h3>
+                  <p class="text-gray-400 text-sm">UX/UI Design</p>
+                </div>
+              </div>
+      
+              <div class="flex items-center bg-gray-800 p-4 rounded-lg">
+                <img
+                  src="./images/Ellipse4.png"
+                  alt="Profile picture of Marvin McKinney"
+                  class="rounded-full w-10 h-10"
+                />
+                <div class="ml-4">
+                  <h3 class="font-bold">Marvin McKinney</h3>
+                  <p class="text-gray-400 text-sm">UX/UI Design</p>
+                </div>
+              </div>
+              <div class="flex items-center bg-gray-800 p-4 rounded-lg">
+                <img
+                  src="./images/Ellipse3.png"
+                  alt="Profile picture of Marvin McKinney"
+                  class="rounded-full w-10 h-10"
+                />
+                <div class="ml-4">
+                  <h3 class="font-bold">Marvin McKinney</h3>
+                  <p class="text-gray-400 text-sm">UX/UI Design</p>
+                </div>
+              </div>
+              <div class="flex items-center bg-gray-800 p-4 rounded-lg">
+                <img
+                  src="./images/Ellipse-2.png"
+                  alt="Profile picture of Marvin McKinney"
+                  class="rounded-full w-10 h-10"
+                />
+                <div class="ml-4">
+                  <h3 class="font-bold">Marvin McKinney</h3>
+                  <p class="text-gray-400 text-sm">UX/UI Design</p>
+                </div>
+              </div>
+      
+      
+              <!-- Repeat the same structure for other talent cards... -->
             </div>
           </div>
-          <div class="flex flex-wrap space-x-2 mt-2">
-            <span class="bg-gray-800 text-white px-3 py-1 rounded-full text-sm">UI Design</span>
-            <span class="bg-gray-800 text-white px-3 py-1 rounded-full text-sm">Frontend Developer</span>
-            <span class="bg-gray-800 text-white px-3 py-1 rounded-full text-sm">6 years</span>
-          </div>
-          <div class="mt-4">
-            <div class="flex flex-col md:flex-row space-x-0 md:space-x-8">
-              <div class="mb-4 md:mb-0">
-                <span class="text-gray-400">Born in</span>
-                <p class="font-semibold text-white">Viet Nam</p>
+      
+          <!-- Right Section -->
+          <div class="w-full lg:w-2/3 bg-gray-900 p-6 rounded-lg lg:ml-8">
+            <div class="flex flex-col md:flex-row items-center p-6 bg-black">
+              <img
+                src="./images/person.png"
+                alt="Portrait of Marvin McKinney"
+                class="rounded-lg w-24 md:w-36 h-24 md:h-36"
+              />
+              <div class="ml-0 md:ml-6 flex-1 mt-4 md:mt-0">
+                <div class="flex flex-col md:flex-row items-center justify-between w-full">
+                  <h1 class="text-xl md:text-2xl font-semibold text-white">
+                    Marvin McKinney
+                  </h1>
+                  <div class="mt-4 md:mt-0 w-full md:w-1/4 flex justify-center md:justify-end">
+                    <button class="green-btns2 relative px-4 py-2 w-[239px] h-[60px] flex items-center  text-white" style="background-color: #00C39A;">
+                      Hiring 
+                      <!-- Circle with arrow icon and gray border -->
+                      <span class="absolute right-2 top-1/2 transform -translate-y-1/2 flex items-center justify-center w-8 h-8 text-white rounded-full border border-white-500">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </span>
+                    </button>
+                  </div>
+                      
+                </div>
+                <div class="flex flex-wrap space-x-2   mt-2">
+                  <span class="bg-gray-800 text-white px-3 py-1 rounded-full text-sm">UI Design</span>
+                  <span class="bg-gray-800 text-white px-3 py-1 rounded-full text-sm">Frontend Developer</span>
+                  <span class="bg-gray-800 text-white px-3 py-1 rounded-full text-sm">6 years</span>
+                </div>
+                <div class="mt-4">
+                  <div class="flex flex-col md:flex-row space-x-0 md:space-x-8">
+                    <div class="mb-4 md:mb-0">
+                      <span class="text-gray-400">Born in</span>
+                      <p class="font-semibold text-white">Viet Nam</p>
+                    </div>
+                    <div>
+                      <span class="text-gray-400">Date of birth</span>
+                      <p class="font-semibold text-white">27 June 1992</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div>
-                <span class="text-gray-400">Date of birth</span>
-                <p class="font-semibold text-white">27 June 1992</p>
+            </div>
+      
+            <!-- Content Section -->
+            <div class="mt-6 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+              <div class="flex flex-col md:flex-row items-center p-8">
+                <div class="w-full md:w-1/2">
+                  <h1 class="text-2xl md:text-4xl font-bold text-white mb-4">
+                    Best Creative and modern agency.
+                  </h1>
+                </div>
+                <div class="w-full md:w-1/2">
+                  <p class="text-base md:text-lg text-white mb-4">
+                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like.
+                  </p>
+                  <p class="text-sm text-white">
+                    It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Stats Section -->
+            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 bg-gray-800 p-4 rounded-lg justify-center items-center text-center">
+              <div class="text-center text-white p-4">
+                <p class="text-2xl font-bold">7+</p>
+                <p class="text-sm">YEARS OF EXPERIENCE</p>
+              </div>
+              <div class="relative text-center text-white p-4 bg-black rounded-lg z-10 gradient-border" style="top: -30px;">
+                <div class="absolute inset-0 rounded-lg"></div>
+                <p class="text-2xl font-bold relative z-20">50+</p>
+                <p class="text-sm relative z-20">PROJECTS COMPLETED</p>
+              </div>
+              <div class="text-center text-white p-4">
+                <p class="text-2xl font-bold">30+</p>
+                <p class="text-sm">HAPPY CLIENTS</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Content Section -->
-      <div class="mt-6 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-        <div class="flex flex-col md:flex-row items-center p-8">
-          <div class="w-full md:w-1/2">
-            <h1 class="text-2xl md:text-4xl font-bold text-white mb-4">
-              Best Creative and modern agency.
-            </h1>
-          </div>
-          <div class="w-full md:w-1/2">
-            <p class="text-base md:text-lg text-white mb-4">
-              Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like.
-            </p>
-            <p class="text-sm text-white">
-              It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Stats Section -->
-      <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 bg-gray-800 p-4 rounded-lg justify-center items-center text-center">
-        <div class="text-center text-white p-4">
-          <p class="text-2xl font-bold">7+</p>
-          <p class="text-sm">YEARS OF EXPERIENCE</p>
-        </div>
-        <div class="relative text-center text-white p-4 bg-black rounded-lg z-10 gradient-border" style="top: -30px;">
-          <div class="absolute inset-0 rounded-lg"></div>
-          <p class="text-2xl font-bold relative z-20">50+</p>
-          <p class="text-sm relative z-20">PROJECTS COMPLETED</p>
-        </div>
-        <div class="text-center text-white p-4">
-          <p class="text-2xl font-bold">30+</p>
-          <p class="text-sm">HAPPY CLIENTS</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--  third exit -->
-
-<!--  fourth -->
-<div class="text-center py-10">
-    <div class="background-container relative">
-      <!-- Background Image -->
-      <div class="background-image absolute inset-0 bg-cover bg-center" style="background-image: url('./path-to-your-image.jpg');"></div>
-  
-      <!-- Title and Subtitle -->
-      <div class="relative z-10  bg-opacity-50 p-6 rounded-lg inline-block mx-auto">
-        <h1 class="title text-3xl md:text-4xl font-bold ">
-          A <span class="subtitle ">Subtitle</span>
-        </h1>
-        <p class="mt-2 text-white text-lg md:text-xl">
-          It uses a dictionary of over 200 Latin words, combined with a handful
-        </p>
-      </div>
-  
-      <!-- Tags Section -->
-      <div class="flex flex-wrap justify-center relative z-10 mt-6 space-x-2 space-y-2">
-        <span class="tag  ">Software</span>
-        <span class="tag  ">Statistics</span>
-        <span class="tag  ">Teaching</span>
-        <span class="tag  ">Technology</span>
-        <span class="tag  ">Tips</span>
-        <span class="tag  ">Tool</span>
-      </div>
-      <div class="flex flex-wrap justify-center relative z-10 mt-6 space-x-2 space-y-2">
+      <!--  third exit -->
+      
+      <!--  fourth -->
+      <div class="text-center py-10">
+          <div class="background-container relative">
+            <!-- Background Image -->
+            <div class="background-image absolute inset-0 bg-cover bg-center" style="background-image: url('./path-to-your-image.jpg');"></div>
         
-        <span class="tag  ">Tools</span>
-        <span class="tag  ">Toread</span>
-        <span class="tag  ">Travel</span>
-        <span class="tag  ">Typography</span>
-        <span class="tag ">Ubuntu</span>
-        <span class="tag ">Web Design</span>
-      </div>
-      <!-- Browse Button -->
-      <div class="mt-6 relative z-10">
-        <button class="button">
-            Browse <i class="fas fa-arrow-right"></i>
-        </button>
-    </div>
-    </div>
-  </div>
-  
-<!--  fourth exit -->
-
-<!--  five -->
-<div class="container mx-auto py-16 px-4">
-    <!-- Shadow circle  -->
-    <div class="shadow-circles"></div>
-  
-    
-    <div class="flex flex-col lg:flex-row items-center justify-between p-10 space-y-6 lg:space-y-0 lg:space-x-6">
-     
-      <div class="text-center lg:text-left explore-heading ">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold">
-          <span >Explore</span><br>
-          <span >by categories</span>
-        </h1>
-      </div>
-     
-      <div class="max-w-md text-center lg:text-left">
-        <p class="text-lg">
-          It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable
-        </p>
-      </div>
-     
-      <div class="hidden lg:flex items-center justify-center w-12 h-12 bg-gray-800 rounded-full">
-        <i class="fas fa-chevron-left text-white"></i>
-        <i class="fas fa-chevron-right text-white ml-2"></i>
-      </div>
-    </div>
-  
-    <!-- Categories  portion -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      <!-- Finance Category -->
-      <div class=" p-6 rounded-lg text-center  radius-finance">
-        <div class="flex justify-between items-center mb-4">
+            <!-- Title and Subtitle -->
+            <div class="relative z-10  bg-opacity-50 p-6 rounded-lg inline-block mx-auto">
+              <h1 class="title text-3xl md:text-4xl font-bold ">
+                A <span class="subtitle ">Subtitle</span>
+              </h1>
+              <p class="mt-2 text-white text-lg md:text-xl">
+                It uses a dictionary of over 200 Latin words, combined with a handful
+              </p>
+            </div>
         
-            <div class="relative w-14 h-14 rounded-lg bg-gradient-to-br from-teal-300 to-cyan-300 shadow-xl">
-                <img src="./images/u_money-stack.png" alt="money stack icon" class="absolute w-6 h-6 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              </div>
+            <!-- Tags Section -->
+            <div class="flex flex-wrap justify-center relative z-10 mt-6 space-x-2 space-y-2">
+              <span class="tag  ">Software</span>
+              <span class="tag  ">Statistics</span>
+              <span class="tag  ">Teaching</span>
+              <span class="tag  ">Technology</span>
+              <span class="tag  ">Tips</span>
+              <span class="tag  ">Tool</span>
+            </div>
+            <div class="flex flex-wrap justify-center relative z-10 mt-6 space-x-2 space-y-2">
               
-        
-          <span class="text-4xl text-explore">124 jobs</span>
-        </div>
-        <h2 class="text-xl font-semibold mb-2 text-white">FINANCE</h2>
-        <p class="text-gray-400">
-          It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-        </p>
-      </div>
-  
-      <!-- Marketing Category -->
-      <div class="bg-green-500 p-6 rounded-lg text-center" id="marketing-category">
-        <div class="flex justify-between items-center mb-4">
-          <div class="text-4xl text-white-900">
-            <img src="./images/marketing (2).PNG" alt="">
-           </div>
-          <span class="text-white-900">124 jobs</span>
-        </div>
-        <h2 class="text-xl font-semibold mb-2 text-gray-900">MARKETING</h2>
-        <p class="text-gray-900">
-          It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-        </p>
-      </div>
-  
-      <!-- Developer Category -->
-      <div class="p-6 rounded-lg text-center radius-finance">
-        <div class="flex justify-between items-center mb-4">
-          <div class="text-4xl text-explore">
-           <img src="./images/developer.png" alt="">
-        </div>
-          <span class="text-explore">124 jobs</span>
-        </div>
-        <h2 class="text-xl font-semibold mb-2 text-white">DEVELOPER</h2>
-        <p class="text-gray-400">
-          It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-        </p>
-      </div>
-  
-      <!-- Design Category -->
-      <div class=" p-6 rounded-lg text-center radius-finance">
-        <div class="flex justify-between items-center mb-4">
-          <div class="text-4xl text-explore">
-            <img src="./images/design.png" alt="">
+              <span class="tag  ">Tools</span>
+              <span class="tag  ">Toread</span>
+              <span class="tag  ">Travel</span>
+              <span class="tag  ">Typography</span>
+              <span class="tag ">Ubuntu</span>
+              <span class="tag ">Web Design</span>
+            </div>
+            <!-- Browse Button -->
+            <div class="mt-6 relative z-10">
+              <button class="button">
+                  Browse <i class="fas fa-arrow-right"></i>
+              </button>
           </div>
-          <span class="text-explore">124 jobs</span>
+          </div>
         </div>
-        <h2 class="text-xl font-semibold mb-2 text-white">DESIGN</h2>
-        <p class="text-gray-400">
-          It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-        </p>
+        
+      <!--  fourth exit -->
+      
+      <!--  five -->
+      <div class="container mx-auto py-16 px-4">
+          <!-- Shadow circle  -->
+          <div class="shadow-circles"></div>
+        
+          
+          <div class="flex flex-col lg:flex-row items-center justify-between p-10 space-y-6 lg:space-y-0 lg:space-x-6">
+           
+            <div class="text-center lg:text-left explore-heading ">
+              <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold">
+                <span >Explore</span><br>
+                <span >by categories</span>
+              </h1>
+            </div>
+           
+            <div class="max-w-md text-center lg:text-left">
+              <p class="text-lg">
+                It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable
+              </p>
+            </div>
+           
+            <div class="hidden lg:flex items-center justify-center w-12 h-12 bg-gray-800 rounded-full">
+              <i class="fas fa-chevron-left text-white"></i>
+              <i class="fas fa-chevron-right text-white ml-2"></i>
+            </div>
+          </div>
+        
+          <!-- Categories  portion -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Finance Category -->
+            <div class=" p-6 rounded-lg text-center  radius-finance">
+              <div class="flex justify-between items-center mb-4">
+              
+                  <div class="relative w-14 h-14 rounded-lg bg-gradient-to-br from-teal-300 to-cyan-300 shadow-xl">
+                      <img src="./images/u_money-stack.png" alt="money stack icon" class="absolute w-6 h-6 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    </div>
+                    
+              
+                <span class="text-4xl text-explore">124 jobs</span>
+              </div>
+              <h2 class="text-xl font-semibold mb-2 text-white">FINANCE</h2>
+              <p class="text-gray-400">
+                It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+              </p>
+            </div>
+        
+            <!-- Marketing Category -->
+            <div class="bg-green-500 p-6 rounded-lg text-center" id="marketing-category">
+              <div class="flex justify-between items-center mb-4">
+                <div class="text-4xl text-white-900">
+                  <img src="./images/marketing (2).PNG" alt="">
+                 </div>
+                <span class="text-white-900">124 jobs</span>
+              </div>
+              <h2 class="text-xl font-semibold mb-2 text-gray-900">MARKETING</h2>
+              <p class="text-gray-900">
+                It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+              </p>
+            </div>
+        
+            <!-- Developer Category -->
+            <div class="p-6 rounded-lg text-center radius-finance">
+              <div class="flex justify-between items-center mb-4">
+                <div class="text-4xl text-explore">
+                 <img src="./images/developer.png" alt="">
+              </div>
+                <span class="text-explore">124 jobs</span>
+              </div>
+              <h2 class="text-xl font-semibold mb-2 text-white">DEVELOPER</h2>
+              <p class="text-gray-400">
+                It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+              </p>
+            </div>
+        
+            <!-- Design Category -->
+            <div class=" p-6 rounded-lg text-center radius-finance">
+              <div class="flex justify-between items-center mb-4">
+                <div class="text-4xl text-explore">
+                  <img src="./images/design.png" alt="">
+                </div>
+                <span class="text-explore">124 jobs</span>
+              </div>
+              <h2 class="text-xl font-semibold mb-2 text-white">DESIGN</h2>
+              <p class="text-gray-400">
+                It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      <!--  five exit  -->
+      <!--  six -->
+        <div >
+          <h1 class="gradient-text text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center">Talents Around</h1>
+          <p class="mt-2 mb-6 text-center ">It was a dictionary of over 200 Latin words, combined with a handful of <br> model sentence structures, to generate Lorem</p>
+          <div class="flex space-x-4 justify-center items-center" > 
+              <div class="flex justify-center items-center">
+                  <img src="./images/person.png" alt="Person with glasses and a black shirt smiling" class="rounded-lg" >
+              </div>
+              <div class="flex flex-col justify-center items-center space-y-4">
+                  <img src="./images/person-1.png" alt="Person with short hair and a serious expression" class="rounded-lg" >
+                  <img src="./images/person-2.png" alt="Person with blonde hair smiling" class="rounded-lg" >
+              </div>
+              <div class="flex justify-center items-center">
+                  <img src="./images/person-3.png" alt="Person with a beard and glasses looking at the camera" class="rounded-lg" >
+              </div>
+              <div class="flex flex-col justify-center items-center space-y-4">
+                  <img src="./images/person-4.png" alt="Person with a beard and a big smile looking to the side" class="rounded-lg">
+                  <img src="./images/person-5.png" alt="Person with glasses and a striped shirt looking at the camera" class="rounded-lg" >
+              </div>
+              <div class="flex justify-center items-center">
+                  <img src="./images/person-6.png" alt="Person with dark hair smiling" class="rounded-lg" >
+              </div>
+             
+          </div>
+         
+        </div>
+      <!--  six exit -->
+      <!--  seven -->
+      <div class="text-center">
+          <h1 class="text-3xl font-bold" id="login-heading">Login to your account</h1>
+          <p class="mt-2 mb-6">It was a dictionary of over 200 Latin words, combined with a handful of <br> model sentence structures, to generate Lorem</p>
       </div>
-    </div>
-  </div>
-  
-<!--  five exit  -->
-<!--  six -->
-  <div >
-    <h1 class="gradient-text text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center">Talents Around</h1>
-    <p class="mt-2 mb-6 text-center ">It was a dictionary of over 200 Latin words, combined with a handful of <br> model sentence structures, to generate Lorem</p>
-    <div class="flex space-x-4 justify-center items-center" > 
-        <div class="flex justify-center items-center">
-            <img src="./images/person.png" alt="Person with glasses and a black shirt smiling" class="rounded-lg" >
-        </div>
-        <div class="flex flex-col justify-center items-center space-y-4">
-            <img src="./images/person-1.png" alt="Person with short hair and a serious expression" class="rounded-lg" >
-            <img src="./images/person-2.png" alt="Person with blonde hair smiling" class="rounded-lg" >
-        </div>
-        <div class="flex justify-center items-center">
-            <img src="./images/person-3.png" alt="Person with a beard and glasses looking at the camera" class="rounded-lg" >
-        </div>
-        <div class="flex flex-col justify-center items-center space-y-4">
-            <img src="./images/person-4.png" alt="Person with a beard and a big smile looking to the side" class="rounded-lg">
-            <img src="./images/person-5.png" alt="Person with glasses and a striped shirt looking at the camera" class="rounded-lg" >
-        </div>
-        <div class="flex justify-center items-center">
-            <img src="./images/person-6.png" alt="Person with dark hair smiling" class="rounded-lg" >
-        </div>
-       
-    </div>
-   
-  </div>
-<!--  six exit -->
-<!--  seven -->
-<div class="text-center">
-    <h1 class="text-3xl font-bold" id="login-heading">Login to your account</h1>
-    <p class="mt-2 mb-6">It was a dictionary of over 200 Latin words, combined with a handful of <br> model sentence structures, to generate Lorem</p>
-</div>
-<div class="flex flex-col lg:flex-row justify-center">
-    <!-- First Column (Inputs and Login Button) -->
-    <div class="w-full lg:w-1/3 p-4">
-        <input type="text" placeholder="Username" class="input-field w-full p-3 mb-4 rounded">
-        <input type="password" placeholder="Password" class="input-field w-full p-3 mb-4 rounded">
-
-        <button class="w-full p-3 mb-4 text-white bg-green-500 rounded-lg flex justify-between items-center pl-5" id="green-btn">
-            <span class="text-left">Log in to your account</span>
-            <!-- Circle with arrow icon on the right -->
-            <span class="w-8 h-8 flex items-center justify-center  text-white rounded-full arrow-rounded">
-                <i class="fa-solid fa-arrow-right"></i>
-            </span>
-        </button>
-
-        <p class="text-gray-400 ">Forgot password?</p>
-    </div>
-
-    <!-- Divider for "or" section -->
-    <div class="flex flex-col items-center justify-center mx-6">
-        <p class="text-gray-400">or</p>
-    </div>
-
-    <!-- Second Column (Social Buttons) -->
-    <div class="w-full lg:w-1/3 p-4">
-        <button class="social-button w-full p-3 mb-4 rounded flex items-center justify-center btns-border">
-            Sign with Facebook
-        </button>
-        <button class="social-button w-full p-3 mb-4 rounded flex items-center justify-center btns-border">
-            Sign with Google
-        </button>
-        <button class="social-button w-full p-3 mb-4 rounded flex items-center justify-center btns-border">
-            Sign with Apple Account
-        </button>
-    </div>
-</div>
-    </div>
+      <div class="flex flex-col lg:flex-row justify-center">
+          <!-- First Column (Inputs and Login Button) -->
+          <div class="w-full lg:w-1/3 p-4">
+              <input type="text" placeholder="Username" class="input-field w-full p-3 mb-4 rounded">
+              <input type="password" placeholder="Password" class="input-field w-full p-3 mb-4 rounded">
+      
+              <button class="w-full p-3 mb-4 text-white bg-green-500 rounded-lg flex justify-between items-center pl-5" id="green-btn">
+                  <span class="text-left">Log in to your account</span>
+                  <!-- Circle with arrow icon on the right -->
+                  <span class="w-8 h-8 flex items-center justify-center  text-white rounded-full arrow-rounded">
+                      <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+              </button>
+      
+              <p class="text-gray-400 ">Forgot password?</p>
+          </div>
+      
+          <!-- Divider for "or" section -->
+          <div class="flex flex-col items-center justify-center mx-6">
+              <p class="text-gray-400">or</p>
+          </div>
+      
+          <!-- Second Column (Social Buttons) -->
+          <div class="w-full lg:w-1/3 p-4">
+              <button class="social-button w-full p-3 mb-4 rounded flex items-center justify-center btns-border">
+                  Sign with Facebook
+              </button>
+              <button class="social-button w-full p-3 mb-4 rounded flex items-center justify-center btns-border">
+                  Sign with Google
+              </button>
+              <button class="social-button w-full p-3 mb-4 rounded flex items-center justify-center btns-border">
+                  Sign with Apple Account
+              </button>
+          </div>
+      </div>
+         
+  </div>  
+ 
 <!--  seven exit -->
 <!--  main content exit -->
 
